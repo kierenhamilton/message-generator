@@ -11,6 +11,5 @@ const getEvents = () => {
     events.push (predictions.what[Math.floor(Math.random()*predictions.what.length)]);
     return events
 }
-
-console.log(getEvents())
-
+events = getEvents()
+console.log(events[0] + " will " + events[2] + " " + events[1] + ".")
